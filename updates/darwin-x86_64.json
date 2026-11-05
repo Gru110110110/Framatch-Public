@@ -1,0 +1,11 @@
+{
+  "version": "0.1.0",
+  "notes": "帧对首个桌面版本。\n\n- 按项目整理视频素材，执行自动匹配，并查看任务进度和排队状态。\n- 支持匹配结果校对与剪辑草稿导出。\n- 支持本机联网激活与有效授权期内的离线使用。\n- 支持应用内检查、下载和安装更新，激活页也可接收更新。\n- 安装更新前等待保存完成；任务运行或排队时阻止安装。\n- 授权状态变化后保留工作台现场，并提供停止任务和重试保存入口。",
+  "pub_date": "2026-11-06T03:04:23+08:00",
+  "platforms": {
+    "darwin-x86_64": {
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0dHSFpqZXdwWitmempmK0ZFRWxFUU5sNkR1dTRObmR6QTVFcTQwU3RZN0dVVW5sZlZCeDR5czRLc01jN2JpWUMwWlBiSDRSODY2cEF1a1ZwK25MM0FBPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA2ODk2CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMApDMlUzNnl3SWQ0bVpVSkhkSDdnZ2tTdFBVTlpwZ1BPdXJYNTNjdytKRnRvbVlLaEs5OXBkWEZtcFcvL0NFY0E3Z2IyanlwZVRiRjJxalNiWWZNbHdBUT09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.0/Framatch_0.1.0_x64.app.tar.gz"
+    }
+  }
+}

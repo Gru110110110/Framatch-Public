@@ -1,0 +1,16 @@
+{
+  "platforms": {
+    "darwin-aarch64": {
+      "version": "0.1.0",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.0/Framatch_0.1.0_aarch64.dmg"
+    },
+    "darwin-x86_64": {
+      "version": "0.1.0",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.0/Framatch_0.1.0_x64.dmg"
+    },
+    "windows-x86_64": {
+      "version": "0.1.0",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.0/Framatch_0.1.0_x64-setup.exe"
+    }
+  }
+}
