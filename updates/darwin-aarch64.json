@@ -1,11 +1,11 @@
 {
-  "version": "0.1.0",
-  "notes": "帧对首个桌面版本。\n\n- 按项目整理视频素材，执行自动匹配，并查看任务进度和排队状态。\n- 支持匹配结果校对与剪辑草稿导出。\n- 支持本机联网激活与有效授权期内的离线使用。\n- 支持应用内检查、下载和安装更新，激活页也可接收更新。\n- 安装更新前等待保存完成；任务运行或排队时阻止安装。\n- 授权状态变化后保留工作台现场，并提供停止任务和重试保存入口。",
-  "pub_date": "2026-11-06T03:04:23+08:00",
+  "version": "0.1.1",
+  "notes": "# 帧对 v0.1.1\n\n- 新增“自动精修推荐入点”开关，默认关闭。开启后会逐帧核对待复核片段的推荐位置，仅在画面与时序证据可靠时采用新入点；找不到可靠结果时保留原推荐位置。\n- 改善短镜头的逐帧精修和匹配确认，结合运动、时间与端点的一致性判断，减少已经验证准确的片段仍需人工确认的情况。\n- 改善剪映与 CapCut 草稿导出，保留原片声音，并继续支持解说音轨和对比画面布局。\n- 导出前集中提醒待复核与未处理片段。继续导出时，有推荐位置的片段使用推荐原片入点，没有推荐位置的片段保留切片画面，保持时间线完整。\n- 改善系统时间偏差引起的激活失败提示与恢复处理，并增强 Windows 设备识别的兼容性。",
+  "pub_date": "2026-11-06T22:37:52+08:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0JQV3NWV0pVZlEvZ3Q3WElVRWp0QWRXaE1SRzRCRU1qWUs1Nk5XODhOaEk4TUhKTXJVU1NPMDdVRUExaUxLRGFHN0xhSHhBbms4bERKQW5WU1didmdrPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTA1ODYzCWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMApPUjVNUGZHU1ZTSGFnZjFpTVp5bUE3UTVXSVNGNHFqcW1zMCtlRXFvT2llRTl1dnM5UjJxbnRJNUVyUHVFOUp3b09RbUR3TnhFeGw0eUlrMjM5bmxBQT09Cg==",
-      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.0/Framatch_0.1.0_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0dMN0dOSGUxS2gyV0t6S1VyL2YrbUtFN0VjMXNiRXlwaWpJT2dxOFprWWhSNnk3N2xLeFNvYk82a2xWOUZTZzFPSnlwZDduRngwelMwNFRwT3pzcEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc2NTc2CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMQpYQ21DSGZRS3A4R2hhZEJHSVJQWWE5NlpaeHdOdnZYdm9OUTduZ1lJZVBnVERZMlMvc0JTTWl4V0Z0eWZzSHJ3K01xUjNGUVNOcXpCSEFIdlB5ZmFDQT09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.1/Framatch_0.1.1_aarch64.app.tar.gz"
     }
   }
 }
