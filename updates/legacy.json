@@ -1,19 +1,19 @@
 {
-  "version": "0.1.1",
-  "notes": "# 帧对 v0.1.1\n\n- 新增“自动精修推荐入点”开关，默认关闭。开启后会逐帧核对待复核片段的推荐位置，仅在画面与时序证据可靠时采用新入点；找不到可靠结果时保留原推荐位置。\n- 改善短镜头的逐帧精修和匹配确认，结合运动、时间与端点的一致性判断，减少已经验证准确的片段仍需人工确认的情况。\n- 改善剪映与 CapCut 草稿导出，保留原片声音，并继续支持解说音轨和对比画面布局。\n- 导出前集中提醒待复核与未处理片段。继续导出时，有推荐位置的片段使用推荐原片入点，没有推荐位置的片段保留切片画面，保持时间线完整。\n- 改善系统时间偏差引起的激活失败提示与恢复处理，并增强 Windows 设备识别的兼容性。",
-  "pub_date": "2026-11-06T22:37:52+08:00",
+  "version": "0.1.2",
+  "notes": "# 帧对 v0.1.2\n\n- 改善短镜头、镜像画面和连续镜头的匹配，减少漏匹配与位置偏差。\n- 优化匹配速度，减少重复处理；再次打开校对页面时，已计算的画面相似度可直接显示。\n- 校对页面新增画面相似度显示，方便判断匹配结果，并改善预览与导出结果的一致性。\n- 修复部分剪映、CapCut 导出素材缺少原片声音的问题，保留切片旁白，定格画面保持静音。\n- 完整原片参考轨可按匹配位置自动分段，方便在剪辑软件中对照调整。\n- 简化匹配进度提示，优化设置页面在不同窗口大小下的显示。",
+  "pub_date": "2026-11-12T10:08:52+08:00",
   "platforms": {
     "darwin-aarch64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0dMN0dOSGUxS2gyV0t6S1VyL2YrbUtFN0VjMXNiRXlwaWpJT2dxOFprWWhSNnk3N2xLeFNvYk82a2xWOUZTZzFPSnlwZDduRngwelMwNFRwT3pzcEFZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc2NTc2CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMQpYQ21DSGZRS3A4R2hhZEJHSVJQWWE5NlpaeHdOdnZYdm9OUTduZ1lJZVBnVERZMlMvc0JTTWl4V0Z0eWZzSHJ3K01xUjNGUVNOcXpCSEFIdlB5ZmFDQT09Cg==",
-      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.1/Framatch_0.1.1_aarch64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0owZlV5SW5LbU9vT3pzYzl2Mmw0Mkhub04zYTNGRWw2YXA4eWw2b2pIY2JzVjdwam5hN0h4NHE4aW5TYURZUjRUUGNBbG45WXdwdjVsbWU0NkpJT2dZPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDUwMjMxCWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMgp1T3dhTDZkUkJnK2FqZHdPN1IvRTZUSG1BOElKSTFqdDliSFpiVE1ybWptck84NTZiNTBKVHpLOE9zciswZ2FwK1lsNEJaanYyczM3YUZ6RlVZd2lCZz09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.2/Framatch_0.1.2_aarch64.app.tar.gz"
     },
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0lRazZmOU9QdTZtc0N5K05ST1lCNUcwdnJFUWZpbTU5SHNVRG1DeDAvNVNoSE51YTBxMHVCMFNQaEtETnBDRW1qaVlQekFKQlpyaHVkclV2OGlRUWdjPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc3NjM5CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMQpzcVRvVi9mZHA4ZGkwVDZPMGh4alJwUU4zUjhTWjhmVzVTNUVLM0kzSzc2ZGRNTGVmQlF0YUc0T0VrcTZBd3RHNjIxVUJmOGxucU5tZ3FkeUNPcFZDUT09Cg==",
-      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.1/Framatch_0.1.1_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0gzQXJBNk00d1Jxa3UreEx4STR5dlpXaGdDUDVvVGJVVnoxeXBXazhlNmkvTTR3cjNaVndjZGxSMWQxVFJlOEprdlNLSkVzTjR4RFpqSTNGWmF4SFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDUxMTI2CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMgpkV1g1NjM1RFpTN1B5S1VBYTFvNTFLRTFHVGs4bisrU1ByZU9IT0tqeHFaODB4VmFGQWUrc2RvajRteVhibGd3RVpHUzVjTy9LakNWRk9BdWZUZlZCZz09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.2/Framatch_0.1.2_x64.app.tar.gz"
     },
     "windows-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0RmUlltb3RrWEhpd0dTNm9nM21vL05xR3VHOXFVd05ET3ZXNWdlZXZUNWUyVjR4Ny9WaFZKNVRLdytXaGV4RUpNVjVyU0FLRDF3Ymlsd0JQN2hhQmdVPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzkzOTc5MTU0CWZpbGU65bin5a+5XzAuMS4xX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMQpUb0t4U3BPQTlZNjN5b21lbDJ4czY3bS8xVTRsOUcvWEtJTGNZTkNza0Vqenlzb2ZxZWZ1ZFdSKzZZb2JmcVVjTlJRcjJ6Q3FhTGdzVGxZa0JPMHVDUT09Cg==",
-      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.1/Framatch_0.1.1_x64-setup.exe"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0ZjZEhEd25SL1RwTkY0UVFaeXQ2d08vRWhwZEgvV2hwRHMxVnhnUzlBblRTa1lpNzM1Zlp1WVJKcDNoV0NhNU93WDdVVVVHTjd6d3RaTDVlZWQ1andvPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDUyODY4CWZpbGU65bin5a+5XzAuMS4yX3g2NC1zZXR1cC5leGUJdmVyc2lvbjowLjEuMgpZRjU3N1Y2NVZoczZZQnhidUtHcUxwdkcwT0ROallRRDZKUWo4M1FGMms4ZXZGWFRsNWlRYjRuK1ZsRXJPK3V2OVFXSXNXc0VIdFhsZHE0VjBaemRDQT09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.2/Framatch_0.1.2_x64-setup.exe"
     }
   }
 }
