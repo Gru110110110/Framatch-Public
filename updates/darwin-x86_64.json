@@ -1,11 +1,11 @@
 {
-  "version": "0.1.2",
-  "notes": "# 帧对 v0.1.2\n\n- 改善短镜头、镜像画面和连续镜头的匹配，减少漏匹配与位置偏差。\n- 优化匹配速度，减少重复处理；再次打开校对页面时，已计算的画面相似度可直接显示。\n- 校对页面新增画面相似度显示，方便判断匹配结果，并改善预览与导出结果的一致性。\n- 修复部分剪映、CapCut 导出素材缺少原片声音的问题，保留切片旁白，定格画面保持静音。\n- 完整原片参考轨可按匹配位置自动分段，方便在剪辑软件中对照调整。\n- 简化匹配进度提示，优化设置页面在不同窗口大小下的显示。",
-  "pub_date": "2026-11-12T10:08:52+08:00",
+  "version": "0.2.0",
+  "notes": "# 帧对 v0.2.0\n\n- 校对页支持同步播放切片和原片，播放时可拖动进度查看对应画面。两侧预览尺寸保持一致，载入和切换画面时更稳定。\n- 调整片段时，画面相似度在后台继续计算，减少拖动和编辑时的等待。校对页收起概览，为预览和编辑留出更多空间。\n- 精确模式默认每 0.55 秒取样，快速模式默认每 0.75 秒取样。手动取样间隔可缩短至 0.25 秒，便于处理短镜头和柔和转场。\n- 改进短镜头、变速和切点附近的匹配，减少把剪切误判为变速的情况。重跑匹配时可复用已经完成的部分分析。\n- 改善剪映、CapCut 等剪辑软件的导出结果，修复定格画面起点与校对预览不一致、时间线个别位置漏帧的问题。\n- 素材库支持点击文件夹名称，直接在系统文件管理器中打开对应目录。",
+  "pub_date": "2026-11-21T01:43:30+08:00",
   "platforms": {
     "darwin-x86_64": {
-      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0gzQXJBNk00d1Jxa3UreEx4STR5dlpXaGdDUDVvVGJVVnoxeXBXazhlNmkvTTR3cjNaVndjZGxSMWQxVFJlOEprdlNLSkVzTjR4RFpqSTNGWmF4SFE4PQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk0NDUxMTI2CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjEuMgpkV1g1NjM1RFpTN1B5S1VBYTFvNTFLRTFHVGs4bisrU1ByZU9IT0tqeHFaODB4VmFGQWUrc2RvajRteVhibGd3RVpHUzVjTy9LakNWRk9BdWZUZlZCZz09Cg==",
-      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.1.2/Framatch_0.1.2_x64.app.tar.gz"
+      "signature": "dW50cnVzdGVkIGNvbW1lbnQ6IHNpZ25hdHVyZSBmcm9tIHRhdXJpIHNlY3JldCBrZXkKUlVUQkZ0b1JzL2dyb0xJMFB5cFBVcGlCZFMvKzBPYUZsdG5NZWhQRmFpMllFNUpBSkVTZUVPZk0zeEpidElUOUthYXV5WGtrRTR6anlMRWs2R0JFcy9kQy9lREpmOVNKVFFnPQp0cnVzdGVkIGNvbW1lbnQ6IHRpbWVzdGFtcDoxNzk1MTk4MDc3CWZpbGU65bin5a+5LmFwcC50YXIuZ3oJdmVyc2lvbjowLjIuMApHaHRPeE53UytIazdEcDZ3S1Mwbm0rR0xnTlhRQURWcWQwTVRleTJIMDRPb0gzam9TaFdRc2pCa2RtRmZXbzJ1cUxqZEtPM0s3QVhaQ2VVNy8rU1FBZz09Cg==",
+      "url": "https://github.com/Gru110110110/Framatch-Public/releases/download/v0.2.0/Framatch_0.2.0_x64.app.tar.gz"
     }
   }
 }
